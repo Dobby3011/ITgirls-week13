@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url('https://ds2017.ru/files/products/sky-balloons-00353-260114309.900x530.jpg') no-repeat center center;
+    min-height: 100%;
+    background-size: cover;
+}
+
+#box {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 25rem;
+    text-align: center;
+}
+
+label {
+    font-size: 2.5rem;
+    padding: 1.25rem;
+}
+
+#birthday {
+    width: 15rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+}
+
+.data:hover {
+    border: 2px solid rgba(109, 27, 185, 0.5);
+    outline: rgb(104, 98, 93);
+}
+
+.data:focus {
+    background: rgba(136, 94, 175, 0.61);
+    border: 2px solid rgba(109, 27, 185, 0.61);
+    outline: rgba(109, 27, 185, 0.61);
+}
+
+#btn {
+    width: 10rem;
+    background-color: rgba(109, 27, 185, 0.61);
+    color: white;
+    border: none;
+    height: 2rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+#massage {
+    width: 26rem;
+    margin: 0 auto;
+    padding-top: 1.25rem;
+    font-size: 1.3rem;
+}
+
+#foto {
+    padding-left: 40%;
+}
